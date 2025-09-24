@@ -50,7 +50,10 @@ npx prisma generate    # Generate Prisma client
 ```
 Your models will be in prisma/schema.prisma.
 
-### 5. Run the App Locally
+### 5. Middleware Setup  
+middleware.ts file in the root of project's app directory 
+
+### 6. Run the App Locally
 ```
 npm run dev
 ```
@@ -59,6 +62,10 @@ Your app should now be running at: http://localhost:3000
 ### Project Structure (Brief Overview)
 ```
 app/                → Pages and routes (Next.js App Router)
+├── (routes)/
+├── api/
+├── middleware.ts   # This file handles the middleware logic
+└── layout.tsx
 components/         → Reusable UI components
 lib/                → Prisma client and helpers
 prisma/schema.prisma → DB models
