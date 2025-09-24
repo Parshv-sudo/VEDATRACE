@@ -7,14 +7,14 @@ VEDATRACE is a blockchain herb traceability platform built to trace the lifecycl
 
 ## Tech Stack
 
-| Layer     | Tech Used                                     |
-|-----------|-----------------------------------------------|
-| Frontend  | React (with Next.js App Router, TypeScript)   |
-| Styling   | Tailwind CSS                                  |
-| Backend   | Next.js (API Routes), Prisma ORM              |
-| Database  | PostgreSQL                                    |
-| Auth      | (Planned: JWT or NextAuth)                    |
-| Package   | npm                                           |
+| Layer     | Tech Used                                       |
+|-----------|-------------------------------------------------|
+| Frontend  | React (with Next.js App Router, TypeScript)     |
+| Styling   | Tailwind CSS                                    |
+| Backend   | Next.js (API Routes),Typescript(.ts),Prisma ORM |
+| Database  | PostgreSQL                                      |
+| Auth      | (Planned: JWT or NextAuth)                      |
+| Package   | npm                                             |
 
 ---
 
